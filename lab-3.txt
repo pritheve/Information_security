@@ -1,0 +1,32 @@
+whoami  
+pwd  
+adduser prithiv  
+cat /etc/passwd  
+cat /etc/shadow  
+addgroup "Third Year"  
+cat /etc/group  
+vi prithiv_script.sh  
+ls -l  
+ls -a  
+vi prithiv_sample.txt  
+ls -l  
+chmod o-r prithiv_sample.txt  
+chmod g+x prithiv_sample.txt  
+chmod o-r-w prithiv_sample.txt  
+chmod o+r+w prithiv_sample.txt  
+chmod 777 prithiv_sample.txt  
+chmod 000 prithiv_sample.txt  
+chmod 600 prithiv_sample.txt  
+vi greet_prithiv.sh  
+echo "What is your name?"  
+read user  
+echo "Hello $user!!"  
+vi math_prithiv.sh  
+echo "Enter 1st number:"  
+read a  
+echo "Enter 2nd number:"  
+read b  
+echo "sum=" $((a+b))  
+echo "difference=" $((a-b))  
+echo "Multiplication=" $((a*b))  
+echo "Division=" $((a/b))
